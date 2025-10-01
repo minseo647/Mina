@@ -1,1 +1,14 @@
+#include <stdio.h>
+int main(){
+ int x;
+ int a;
+ int b;
+ scanf("%d", &x);
+ a=x<<1;
+ b=x>>1;
+ printf("%d %d", a b);
+ return 0;
+}
 
+
+//변수를 따로 설정해서 풀었는데 걍 바로 하는게 훨씬 깔끔!(printf("%d %d\n", x<<1, x>>1))-> 근데 이렇게 하면 정의되지 않는 문제가 생기지 않나? x++, --x 는 생겼던 것 같기도..
