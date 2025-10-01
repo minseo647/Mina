@@ -1,1 +1,10 @@
-
+#include <stdio.h>
+int main(){
+ int a;
+ double b;
+ scanf("%d %lf", &a, &b);
+ printf("%d %f\n",a,b);
+ printf("%d %f\n",a,b);
+ return 0;
+}
+//return 0; 빼먹지 말자..
