@@ -1,3 +1,14 @@
 //워밍업2 ???
 //워밍업 4 상수 중 올바르지 않은 것 =>'abc'(o), .1(x)
 //워밍업5 65000 저장 자료형 중 메모리 가장 소모 적은것은? (signed short, unsigned short, long, int)-> unsigned short
+//워밍업6 다음 실행 결과 예측
+#include <stdio.h>
+int main(void) {
+ int x;
+ float y;
+ y=x=2.5; //C에서 대입연산은 오른쪽에서 왼쪽으로 진행. x=2.5 => x=2(int x) => y=2 => y=2.0
+ printf("x=%d y=%f \n", x, y);
+ return 0;
+}
+// 워밍업7 정수 18 0001 0010 아님????
+0010000
